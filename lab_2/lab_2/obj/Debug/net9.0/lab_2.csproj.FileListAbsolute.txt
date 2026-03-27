@@ -1,0 +1,14 @@
+D:\programming\patterns\lab_2\lab_2\bin\Debug\net9.0\lab_2.exe
+D:\programming\patterns\lab_2\lab_2\bin\Debug\net9.0\lab_2.deps.json
+D:\programming\patterns\lab_2\lab_2\bin\Debug\net9.0\lab_2.runtimeconfig.json
+D:\programming\patterns\lab_2\lab_2\bin\Debug\net9.0\lab_2.dll
+D:\programming\patterns\lab_2\lab_2\bin\Debug\net9.0\lab_2.pdb
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\lab_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\lab_2.AssemblyInfoInputs.cache
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\lab_2.AssemblyInfo.cs
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\lab_2.csproj.CoreCompileInputs.cache
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\lab_2.dll
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\refint\lab_2.dll
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\lab_2.pdb
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\lab_2.genruntimeconfig.cache
+D:\programming\patterns\lab_2\lab_2\obj\Debug\net9.0\ref\lab_2.dll

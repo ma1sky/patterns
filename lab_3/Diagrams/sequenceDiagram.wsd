@@ -1,0 +1,54 @@
+@startuml CreateAndPrintComposite
+
+actor User
+participant "Folder (root)" as Root
+participant "Folder (docs)" as Docs
+participant "PNG (logo)" as Logo
+participant "TXT (readme)" as Readme
+
+User -> Root : new Folder("root")
+User -> Docs : new Folder("docs")
+User -> Logo : new PNG("logo.png", 120)
+User -> Readme : new TXT("readme.txt", 12)
+
+User -> Root : Add(Docs)
+Root -> Docs : SetLevel(1)
+
+User -> Docs : Add(Logo)
+Docs -> Logo : SetLevel(2)
+
+User -> Docs : Add(Readme)
+Docs -> Readme : SetLevel(2)
+
+User -> Root : Print()
+Root -> Root : Print()
+Root -> Docs : Print()
+Docs -> Logo : Print()
+Docs -> Readme : Print()
+
+@enduml
+
+@startuml AddComponent
+
+actor User
+participant "Folder (parent)" as Parent
+participant "SVG (icon)" as Icon
+
+User -> Parent : Add(Icon)
+Parent -> Parent : if component == null?
+Parent -> Icon : SetLevel(parent.Level + 1)
+Parent -> Parent : Components.Add(Icon)
+
+@enduml
+
+@startuml RemoveComponent
+
+actor User
+participant "Folder (parent)" as Parent
+participant "TXT (note)" as Note
+
+User -> Parent : Remove(Note)
+Parent -> Parent : if component == null?
+Parent -> Parent : Components.Remove(Note)
+
+@enduml

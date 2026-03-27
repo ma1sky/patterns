@@ -1,0 +1,79 @@
+@startuml CompositePatternDiagram
+
+abstract class Component {
+    #Name : string
+    #Level : int
+    +Component()
+    +Component(name : string, level : int)
+    +Add(component : Component)
+    +Remove(component : Component)
+    +Print()
+    #SetLevel(level : int)
+}
+
+abstract class File { 
+    #Type : FileType
+    #Size : int
+    #Level : int
+    +File()
+    +File(name : string, type : FileType, size : int, level : int)
+    +Print()
+}
+
+abstract class Directory {
+    #Components : List<Component>
+    +Directory()
+    +Directory(name : string, level : int)
+    +Add(component : Component)
+    +Remove(component : Component)
+    +Print()
+}
+
+class Folder {
+    +Folder()
+    +Folder(name : string, level : int)
+    +Add(component : Component)
+    +Remove(component : Component)
+    +Print()
+
+}
+
+class Disk {
+    +Disk()
+    +Disk(name : string, level : int)
+    +Add(component : Component)
+    +Remove(component : Component)
+    +Print()
+
+}
+
+class PNG {
+    +PNG()
+    +PNG(name : string, size : int, level : int)
+    +Print()
+
+}
+
+class SVG {
+    +SVG()
+    +SVG(name : string, size : int, level : int)
+    +Print()
+
+}
+
+class TXT {
+    +TXT()
+    +TXT(name : string, size : int, level : int)
+    +Print()
+    
+}
+
+Component <|-- File
+Component <|-- Directory
+Directory <|-- Folder
+Directory <|-- Disk
+File <|-- PNG
+File <|-- TXT
+File <|-- SVG
+
+@enduml

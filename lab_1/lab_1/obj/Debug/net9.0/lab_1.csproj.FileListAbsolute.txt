@@ -1,0 +1,14 @@
+D:\Programming\patterns\lab_1\lab_1\bin\Debug\net9.0\lab_1.exe
+D:\Programming\patterns\lab_1\lab_1\bin\Debug\net9.0\lab_1.deps.json
+D:\Programming\patterns\lab_1\lab_1\bin\Debug\net9.0\lab_1.runtimeconfig.json
+D:\Programming\patterns\lab_1\lab_1\bin\Debug\net9.0\lab_1.dll
+D:\Programming\patterns\lab_1\lab_1\bin\Debug\net9.0\lab_1.pdb
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\lab_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\lab_1.AssemblyInfoInputs.cache
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\lab_1.AssemblyInfo.cs
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\lab_1.csproj.CoreCompileInputs.cache
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\lab_1.dll
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\refint\lab_1.dll
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\lab_1.pdb
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\lab_1.genruntimeconfig.cache
+D:\Programming\patterns\lab_1\lab_1\obj\Debug\net9.0\ref\lab_1.dll
