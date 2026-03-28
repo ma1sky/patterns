@@ -27,28 +27,3 @@ Docs -> Logo : Print()
 Docs -> Readme : Print()
 
 @enduml
-
-@startuml AddComponent
-
-actor User
-participant "Folder (parent)" as Parent
-participant "SVG (icon)" as Icon
-
-User -> Parent : Add(Icon)
-Parent -> Parent : if component == null?
-Parent -> Icon : SetLevel(parent.Level + 1)
-Parent -> Parent : Components.Add(Icon)
-
-@enduml
-
-@startuml RemoveComponent
-
-actor User
-participant "Folder (parent)" as Parent
-participant "TXT (note)" as Note
-
-User -> Parent : Remove(Note)
-Parent -> Parent : if component == null?
-Parent -> Parent : Components.Remove(Note)
-
-@enduml

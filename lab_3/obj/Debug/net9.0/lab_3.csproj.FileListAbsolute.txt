@@ -12,3 +12,4 @@ D:\programming\patterns\lab_3\obj\Debug\net9.0\refint\lab_3.dll
 D:\programming\patterns\lab_3\obj\Debug\net9.0\lab_3.pdb
 D:\programming\patterns\lab_3\obj\Debug\net9.0\lab_3.genruntimeconfig.cache
 D:\programming\patterns\lab_3\obj\Debug\net9.0\ref\lab_3.dll
+D:\programming\patterns\lab_3\obj\Debug\net9.0\lab_3.sourcelink.json
